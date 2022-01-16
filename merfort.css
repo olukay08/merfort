@@ -1,0 +1,368 @@
+html{
+	box-sizing: border-box;
+	font-size: 15px;
+	
+}
+body{
+	background-color: silver;
+}
+
+h2{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	text-align: center;
+	font-size:30px;
+	text-transform: uppercase;
+	color:indigo;
+	text-shadow: 2px 2px 3px chocolate;
+	
+}
+.dotun{
+	padding-left:20px;
+	padding-right:20px;
+	border-radius:8px;
+	background-color:red;
+	margin: 10px;
+}
+
+
+.myp1{
+	background:url("images%20(1).jpeg");
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+
+	
+
+.myp1 p{
+	color: rgb(2, 24, 2);
+	font-family:'Times New Roman', Times, serif;
+	text-align: center;
+	font-weight: bold ;
+	font-size: 15px;
+	
+	
+	
+}
+#temi{
+	display: flex;
+	justify-content: center;
+	
+}
+.logo1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+nav{
+	font-weight: bold;
+	color:gold ;
+   justify-content:center;
+	align-content:center;
+	flex-flow:row-reverse;
+	align-items: center;
+	
+}
+ ul li a {
+	color:gold!important;
+	font-size: bold;
+}
+
+.sect1{
+	background-color:indigo;
+justify-content: center;
+	margin-top: 20px;
+	height:100%;
+
+}
+.sect1 h3
+,h4 {
+	color: white;
+	text-shadow:  2px 2px 3px black;
+	padding: 5px 5px;
+	border: 2px solid #840d0d;
+	border-radius: 8px;
+	background-color: goldenrod;
+	text-align: center;
+}
+
+h3:hover{
+	background-color: rgb(24, 22, 22);
+}
+
+
+
+.sect1 ul li {
+	padding-top: 15px;
+	font-weight: 400;
+		color:gold;
+	
+	
+}
+.cont{
+	color: gold;
+	font-weight: 400;
+	
+}
+.cont input{
+	border-radius: 8px;
+	border: 2px solid #840d0d;
+	padding-left: 5px;
+}
+.cont .btn {
+	margin-top: 6px;
+	
+}
+.sect2{
+	background-color:rgb(122, 207, 247);
+	height: 100%;
+	color:black;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.img-responsive{
+	height: 150px;
+	width: 200px;
+}
+.kolop1 img{
+	max-height: 200px;
+		max-width: 200px;
+	padding:5px 10px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.kolop1 span{
+	font-weight: bold;
+	color: white;
+	padding: 5px;
+	border: 2px solid rgb(238, 13, 13);
+	 border-radius:10px;
+		 background-color:rgb(34, 4, 88);
+	
+}
+.sect3{
+	background-color: lightblue;
+	color: darkred;
+	font-weight:3x;
+	justify-content: center;
+	padding: 5px;
+}
+.sect3 img{
+	height: 150px;
+	width: 150px;
+	border-radius: 20%;
+	
+	box-shadow: 1px 1px 1px 1px rgb(20, 20, 20);
+	margin-bottom: 15px !important;
+}
+.sect3 h5{
+	color: rgb(243, 53, 78);
+	text-align: center;
+	padding:5px;
+	
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-radius:8px;
+	background-color: rgb(21, 22, 21);
+}
+.sect3 p{
+	text-align: left;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(3, 3, 61);
+}
+
+
+.sect4{
+	background-color: lightblue;
+	color:darkred;
+	font-weight:3x;
+	justify-content: center;
+	margin-bottom: 20px;
+	
+	padding: 5px;
+}
+.carousel-inner {
+	
+	color: red;
+}
+.sect4 img{
+	align-content: center;
+	justify-content:center;
+	width:50%;
+	max-height:300px;
+    max-width: 400px;
+	border-radius: 30px;
+	display: flex;
+	box-shadow: 2px 2px 2px 2px red;
+}
+.sect5 {
+margin-bottom: 20px;
+	background-color: indigo;
+}
+.sect5 img{
+	border-radius:20px;
+	width: 200px;
+	
+	height: 200px;
+	cursor:zoom-in;
+	margin-bottom:15px;
+
+		
+}
+.sect5 h1{
+	color: aqua;
+	font-size: 20px;
+	
+	text-align: center;
+	font-weight: bold;
+	border-radius: 20px;
+	border: 4px dotted red;
+	margin: 5px 20px;
+	animation: pop 5s infinite;
+}
+.sect5 h4{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 14px;
+	color: lightblue;
+	background-color:rgb(20, 20, 20);
+	border:0px;
+}
+@keyframes pop{
+	from {
+		color: white;
+		font-size: 25px;
+	}
+	to{
+		color: gold;
+		font-size: 30px;
+	}
+	
+}
+.sect6{
+	background-color: black;
+	color:darkred;
+	text-align:center;
+	
+	
+}
+.sect6 h5{
+	color: rgb(122, 176, 238);
+	font-weight: 600;
+}
+.sect6 p {
+	color:#840d0d;
+	font-weight: 600;
+	text-align:center;
+	text-transform: capitalize;
+}
+.sect6 .box1{
+	
+}
+.sect6 .box2{
+	
+	
+		
+}
+.sect6 .box2 i{
+	font-size: 20px;
+	margin: 0px 10px;
+	color: white;
+	border: 2px solid rgb(24, 98, 184);
+	border-radius: 50px;
+	padding: 5px;
+	background-color:rgb(24, 24, 238);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
